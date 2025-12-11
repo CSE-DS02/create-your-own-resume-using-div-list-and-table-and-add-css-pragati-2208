@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My navigatio website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            background-color: #0077cc;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        .nav li {
+            display: inline-block; 
+            list-style: none;
+            margin: 0 12px;
+        }
+        .nav li a {
+            display: block; 
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            transition: 0.3s;
+        }
+        .nav li a:hover {
+            background-color: lightsalmon;
+            border-radius: 5px;
+        }
+        .nav-right {
+            float: right;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li class="nav-right"><a href="#">Login</a></li>
+        <li class="nav-right"><a href="#">Sign Up</a></li>
+        <li class="nav-right"><a href="#">Contact</a></li>
+    </ul>
+    <!-- Clear floats -->
+    <div class="clear"></div>
+</body>
+</html>
